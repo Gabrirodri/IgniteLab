@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-zinc-900 text-zinc-100;
+}
+/*
+//CMS - Content Management System
+
+//Wordpress traz tranto o painel de admin quanto a parte visual do front-end (temas)
+//Headless CMS(GraphCMS): Painel de ADMIN (dados fornecidos atraves de uma API REST ou GraphQL)
+// React que consome a API do  CMS
+*/
